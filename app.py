@@ -2,7 +2,7 @@ import pymongo
 from pymongo.server_api import ServerApi
 from bson.objectid import ObjectId
 
-client = pymongo.MongoClient("mongodb+srv://admin:admin@fatec.x655kkc.mongodb.net/?retryWrites=true&w=majority&appName=FATEC", server_api=ServerApi('1'))
+client = pymongo.MongoClient("mongodb+srv://user:user", server_api=ServerApi('1'))
 db = client.MercadoLivre
 
 global mydb
